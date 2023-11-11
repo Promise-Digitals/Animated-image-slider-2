@@ -18,11 +18,11 @@ img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: zoom-out 5s linear infinite;
+    animation: zoom-out 2s linear infinite;
 }
 @keyframes zoom-out{
     100%{
-        width: 140%;
+        width: 120%;
     }
 }
 .text-box{
@@ -32,7 +32,7 @@ img{
     right: 5%;
     color: #fff;
     transform: translateY(100px);
-    animation: textup 5s linear infinite;
+    animation: textup 2s linear infinite;
 }
 @keyframes textup{
     50%{
@@ -61,16 +61,16 @@ img{
     border-radius: 2px;
 }
 .banner-1{
-    animation: slide1 20s linear infinite;
+    animation: slide1 8s linear infinite;
 }
 .banner-2 {
-    animation: slide2 20s linear infinite;
+    animation: slide2 8s linear infinite;
 }
 .banner-3 {
-    animation: slide3 20s linear infinite;
+    animation: slide3 8s linear infinite;
 }
 .banner-4 {
-    animation: slide4 20s linear infinite;
+    animation: slide4 8s linear infinite;
 }
 @keyframes slide1{
     0%{
@@ -140,7 +140,7 @@ img{
         visibility: visible;
     }
 }
-.text-1{
+/* .text-1{
     animation-delay: 0s;
 }
 .text-2 {
@@ -151,4 +151,4 @@ img{
 }
 .text-4 {
     animation-delay: 15s;
-}
+} */
