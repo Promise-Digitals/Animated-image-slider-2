@@ -45,7 +45,7 @@ img{
 .text-box h1{
     margin-bottom: 40px;
     font-size: 40px;
-    color: #ff0040;
+    color: #6660ff;
 }
 .text-box p{
     font-size: 15px;
@@ -55,7 +55,7 @@ img{
 .text-box span{
     width: 150px;
     height: 2px;
-    background: #ff0040;
+    background: #6660ff;
     position: absolute;
     left: 0;
     border-radius: 2px;
